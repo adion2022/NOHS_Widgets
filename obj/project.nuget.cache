@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iIZQ6oD4ksQJn1xVgA61HFxeJ3JC+3lYiP396ho8U374TFnUwVn2k6Z3RnzRJ6KQ0IK17o8rmiVvfufIUR0Nbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Archie\\Desktop\\NOHS_Widgets-master\\Widgets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Archie\\.nuget\\packages\\bootstrap\\5.1.3\\bootstrap.5.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

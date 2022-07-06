@@ -1,7 +1,28 @@
-﻿@using Widgets.Data.Models
+﻿@model List<Widget> 
+@using Widgets.Data.Models
 @{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-1 col-md-3 col-lg-4">          
+        </div>
+        <div class="col-xs-12 col-sm-10 col-md-6 col-lg-4">         
+            @{
+                foreach(Widget item in @Model)
+                {     
+                    <div class="row item-row">
+                        <div class="item-center">
+                            <img src='@item.WidgetImage' class="rounded img-fluid img-max"/>                           
+                        </div>
+                        <div class="item-center item-text">    
+                            <span>Widget: @item.WidgetName</span><span class="item-space">Quantity: @item.Qty</span> 
+                        </div>                        
+                    </div>                    
+                }
+            }            
+        </div>
+        <div class="col-sm-1 col-md-3 col-lg-4">           
+        </div>
+    </div>
 </div>
